@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<apache_4a_icu_death_prob &le; 0.135<br/>gini = 0.5<br/>samples = 73371<br/>value = [36685.5, 36685.5]<br/>class = Survived>, fillcolor="#ffffff"] ;
+1 [label=<gini = 0.395<br/>samples = 57045<br/>value = [30206.586, 11211.495]<br/>class = Died>, fillcolor="#efb082"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.323<br/>samples = 16326<br/>value = [6478.914, 25474.005]<br/>class = Survived>, fillcolor="#6bb6ec"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
