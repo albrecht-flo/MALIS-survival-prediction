@@ -25,3 +25,15 @@ def plot_roc(ground_truth_labels, prediction_labels, title: str):
     plt.title(title)
     plt.legend()
     plt.show()
+    
+def plot_roc(model, X, y, title: str):
+    rocDisp = RocCurveDisplay.from_estimator(model, X, y, color="orange")
+    plt.plot([0, 1], [0, 1], "k--", label="chance level (AUC = 0.5)")
+    # plt.axis("square")
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title(title)
+    plt.legend()
+    plt.show()
+
+
