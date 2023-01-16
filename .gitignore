@@ -1,3 +1,5 @@
+# Ignore the temporary mess
+tmp*
 
 # Ignore jupyter checkpoints
 .ipynb_checkpoints
