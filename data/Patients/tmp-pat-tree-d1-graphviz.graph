@@ -1,9 +1,0 @@
-digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
-edge [fontname="helvetica"] ;
-0 [label=<d1_diasbp_max &le; 0.5<br/>gini = 0.5<br/>samples = 73371<br/>value = [36685.5, 36685.5]<br/>class = Survived>, fillcolor="#ffffff"] ;
-1 [label=<gini = 0.435<br/>samples = 49499<br/>value = [25968.875, 12215.341]<br/>class = Died>, fillcolor="#f1bc96"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<gini = 0.424<br/>samples = 23872<br/>value = [10716.625, 24470.159]<br/>class = Survived>, fillcolor="#90c8f0"] ;
-0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-}
